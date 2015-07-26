@@ -13,6 +13,7 @@ function handleError(stream, cb) {
     });
 }
 
+
 module.exports = {
     copySharedAssets: function (dest, cb) {
         var dirs = ['content/**/*', 'fonts/**/*', 'images/**/*', 'styles/**/*.css']
